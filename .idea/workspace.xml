@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="990b4ef2-d450-425f-8f54-fc5aa18b71a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/DSP_4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/DSP_4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/berlin.png" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/berlin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/london.png" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/london.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/streamlit_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +41,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\48887\Documents\GitHub\SUML_streamlit\lab4" />
+      <recent name="C:\Users\48887\Documents\GitHub\SUML_streamlit\lab3" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="SUML_streamlit" />
@@ -225,7 +226,7 @@
       <workItem from="1761903517470" duration="32000" />
       <workItem from="1761903780357" duration="1080000" />
       <workItem from="1761904925260" duration="98000" />
-      <workItem from="1762431749046" duration="1333000" />
+      <workItem from="1762431749046" duration="3306000" />
     </task>
     <servers />
   </component>
