@@ -34,10 +34,10 @@ st.title('Lab3 - Streamlit - Analziator tekstu')
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("london.png", caption="Londyn - Big Ben i Parlament", use_container_width=True)
+    st.image("lab3/london.png", caption="Londyn - Big Ben i Parlament", use_container_width=True)
 
 with col2:
-    st.image("berlin.png", caption="Berlin - Brama Brandenburska", use_container_width=True)
+    st.image("lab3/berlin.png", caption="Berlin - Brama Brandenburska", use_container_width=True)
 
 st.header('Przetwarzanie języka naturalnego')
 
