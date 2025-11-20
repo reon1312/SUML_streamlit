@@ -5,19 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="990b4ef2-d450-425f-8f54-fc5aa18b71a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lab4/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab4/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -29,7 +42,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
     &quot;Python.streamlit_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -45,6 +60,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\48887\Documents\GitHub\SUML_streamlit\lab4" />
+      <recent name="C:\Users\48887\Documents\GitHub\SUML_streamlit" />
       <recent name="C:\Users\48887\Documents\GitHub\SUML_streamlit\lab3" />
     </key>
   </component>
@@ -228,7 +244,12 @@
       <workItem from="1761903780357" duration="1080000" />
       <workItem from="1761904925260" duration="98000" />
       <workItem from="1762431749046" duration="3783000" />
-      <workItem from="1762786630023" duration="391000" />
+      <workItem from="1762786630023" duration="711000" />
+      <workItem from="1762890427753" duration="1406000" />
+      <workItem from="1762947850541" duration="2279000" />
+      <workItem from="1762950214884" duration="428000" />
+      <workItem from="1763045601812" duration="19000" />
+      <workItem from="1763647405710" duration="1269000" />
     </task>
     <servers />
   </component>
@@ -236,6 +257,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SUML_streamlit$test.coverage" NAME="test Coverage Results" MODIFIED="1763648535509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
+    <SUITE FILE_PATH="coverage/SUML_streamlit$app.coverage" NAME="app Coverage Results" MODIFIED="1763648200538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
     <SUITE FILE_PATH="coverage/SUML_streamlit$streamlit_app.coverage" NAME="streamlit_app Coverage Results" MODIFIED="1761902682857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

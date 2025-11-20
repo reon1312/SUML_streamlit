@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import h5py
 from datetime import datetime
 
 startTime = datetime.now()
@@ -18,9 +19,6 @@ def main():
     left, right = st.columns(2)  # Fixed: changed from st.container(2) to st.columns(2)
     prediction = st.container()
 
-    st.image(
-        "https://media1.popsugar-assets.com/files/thumbor/7CwCuGAKxTrQ4wPyOBpKjSsd1JI/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/04/19/743/n/41542884/5429b59c8e78fbc4_MCDTITA_FE014_H_1_.JPG")
-
     with overview:
         st.title("Czy by przeżył?")
 
@@ -37,15 +35,31 @@ def main():
         parch_slider = st.slider("# Liczba rodziców/dzieci", min_value=0, max_value=6)
         fare_slider = st.slider("Cena biletu", min_value=0, max_value=500, step=10)
 
-    data = [[pclass_radio, sex_radio, age_slider, sibsp_slider, parch_slider, fare_slider, embarked_radio]]
+
+    Q = 1 if embarked_radio == 1 else 0
+    S = 1 if embarked_radio == 2 else 0
+    data = [[pclass_radio, age_slider, sibsp_slider, parch_slider, fare_slider, embarked_radio, sex_radio]]
 
     survival = model.predict(data)
     s_confidence = model.predict_proba(data)
+
 
     with prediction:
         st.header("Przeżył? {0}".format("Tak" if survival[0] == 1 else "Nie"))
         st.subheader("Pewność predykcji {0:.2f}%".format(s_confidence[0][survival][0] * 100))
 
+    st.image(
+        "https://media1.popsugar-assets.com/files/thumbor/7CwCuGAKxTrQ4wPyOBpKjSsd1JI/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/04/19/743/n/41542884/5429b59c8e78fbc4_MCDTITA_FE014_H_1_.JPG")
+
+    with st.expander("📊 Informacje o modelu"):
+        st.write(f"**Liczba cech:** {model.n_features_in_}")
+
+        if hasattr(model, 'feature_names_in_'):
+            st.write("**Nazwy cech:**", list(model.feature_names_in_))
+
+        st.write(f"**Kształt współczynników:** {model.coef_.shape}")
+        st.write("**Współczynniki:**")
+        st.write(model.coef_)
 
 if __name__ == "__main__":
     main()
